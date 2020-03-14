@@ -64,6 +64,14 @@ public class Model {
 		return segreto;
 	}
 	
+	public int getTMAX() {
+		return TMAX;
+	}
+
+	public int getTentativiFatti() {
+		return tentativiFatti;
+	}
+
 	public void finePartita() {
 		this.inGioco = false;
 	}

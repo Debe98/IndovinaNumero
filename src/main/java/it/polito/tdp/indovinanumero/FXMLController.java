@@ -59,7 +59,7 @@ public class FXMLController {
     	
     	if (ritorno == 0) {
     		//HO INDOVINATO!
-    		txtRisultato.appendText("HAI VINTO!!! Hai utilizzato " + model.getTentativiRimasti() + " tentativi!");
+    		txtRisultato.appendText("HAI VINTO!!! Hai utilizzato " + model.getTentativiFatti() + " tentativi!");
     		layoutTentativo.setDisable(true);
     		model.finePartita();
     		return;
